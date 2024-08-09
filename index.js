@@ -1,4 +1,13 @@
-["exit", "logger", "spinner", "env"].forEach((m) => {
+[
+  "exit",
+  "logger",
+  "spinner",
+  "env",
+  "validate",
+  "module",
+  "pluginResolution",
+  "pluginOrder",
+].forEach((m) => {
   Object.assign(exports, require(`./lib/${m}`));
 });
 
