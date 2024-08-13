@@ -3,6 +3,7 @@
   "logger",
   "spinner",
   "env",
+  "pkg",
   "validate",
   "module",
   "pluginResolution",
